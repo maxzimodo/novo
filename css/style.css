@@ -368,7 +368,7 @@ div#load_screen{
     }
     .line-heading {
         font-size: 21px;
-        padding: 20px 0 24px;
+        padding: 20px 0 22px;
     }
     .line-heading img {
         display: block;
@@ -380,7 +380,7 @@ div#load_screen{
     .all-u-want-p {
         width: 100%;
     }
-    p {
+    p, ul {
         font-size: 18px;
     }
     h2 {
@@ -416,7 +416,7 @@ div#load_screen{
         height: auto;
     }
     header .left-block h1.title {
-        font-size: 35px;
+        font-size: 40px;
     }
     form {
         width: 100%;
@@ -448,6 +448,7 @@ div#load_screen{
         margin: 0 auto 10px;
     }
     .line-heading {
+        font-size: 25px;
         padding: 20px 10px 27px;
     }
     .for-mobile {
@@ -455,6 +456,9 @@ div#load_screen{
     }
     .for-desktop {
         display: none;
+    }
+    .description-no-bg {
+        text-align: center;
     }
 }
 
@@ -480,7 +484,7 @@ div#load_screen{
         height: auto;
     }
     header .left-block h1.title {
-        font-size: 35px;
+        font-size: 40px;
     }
     form {
         width: 100%;
@@ -512,6 +516,7 @@ div#load_screen{
         margin: 0 auto 10px;
     }
     .line-heading {
+        font-size: 28px;
         padding: 20px 10px 27px;
     }
     .for-mobile {
