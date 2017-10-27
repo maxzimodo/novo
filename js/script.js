@@ -1,4 +1,3 @@
-
 window.addEventListener("load", function(){
     //wow
     new WOW().init();
@@ -21,23 +20,6 @@ function hasTouch() {
         || navigator.maxTouchPoints > 0
         || navigator.msMaxTouchPoints > 0;
 }
-
-//scrolltoid
-$('#lookfor').click(function(){
-    $("html, body").animate({ scrollTop: $('#form').offset().top }, 2000);
-});
-
-
-//buttons animation
-// var telephone = $('#telephone');
-// setInterval(function(){ buzzing() }, 4000);
-
-// function buzzing(){
-//     telephone.addClass('phone-buzz');
-//     setTimeout(function(){ telephone.removeClass('phone-buzz'); }, 1000);
-// };
-
-
 if (hasTouch()) { // remove all :hover stylesheets
     try { // prevent exception on browsers not supporting DOM styleSheets properly
         for (var si in document.styleSheets) {
@@ -55,47 +37,20 @@ if (hasTouch()) { // remove all :hover stylesheets
     } catch (ex) {}
 }
 
+//scrolltoid
+$('#lookfor').click(function(){
+    $("html, body").animate({ scrollTop: $('#form').offset().top }, 2000);
+});
 
-// $('.responsive').slick({
-//     // dots: true,
-//     infinite: true,
-//     speed: 300,
-//     slidesToShow: 6,
-//     slidesToScroll: 1,
-//     responsive: [
-//         {
-//             breakpoint: 1500,
-//             settings: {
-//                 slidesToShow: 5,
-//                 slidesToScroll: 1,
-//                 infinite: true,
-//                 // dots: true
-//             }
-//         },
-//         {
-//             breakpoint: 1200,
-//             settings: {
-//                 slidesToShow: 4,
-//                 slidesToScroll: 1,
-//                 infinite: true,
-//             }
-//         },
-//         {
-//             breakpoint: 600,
-//             settings: {
-//                 slidesToShow: 2,
-//                 slidesToScroll: 1
-//             }
-//         },
-//         {
-//             breakpoint: 480,
-//             settings: {
-//                 slidesToShow: 1,
-//                 slidesToScroll: 1
-//             }
-//         }
-//         // You can unslick at a given breakpoint now by adding:
-//         // settings: "unslick"
-//         // instead of a settings object
-//     ]
-// });
+
+//buttons animation
+// var telephone = $('#telephone');
+// setInterval(function(){ buzzing() }, 4000);
+
+// function buzzing(){
+//     telephone.addClass('phone-buzz');
+//     setTimeout(function(){ telephone.removeClass('phone-buzz'); }, 1000);
+// };
+
+
+
