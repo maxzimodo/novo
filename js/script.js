@@ -13,7 +13,7 @@ window.addEventListener("load", function(){
 });
 
 //parallax
-$('.parallax-window').parallax({imageSrc: 'img/main_pic.jpg'});
+$('.parallax-window').parallax({imageSrc: 'img/main_pic2.jpg'});
 
 //remove hover on mobile
 function hasTouch() {
@@ -24,13 +24,13 @@ function hasTouch() {
 
 //scrolltoid
 $('#lookfor').click(function(){
-    $("html, body").animate({ scrollTop: $('#form').offset().top }, 2000);
+    $("html, body").animate({ scrollTop: $('#scroll_anchor').offset().top }, 2000);
 });
 
 
 //buttons animation
-var telephone = $('#telephone');
-setInterval(function(){ buzzing() }, 4000);
+// var telephone = $('#telephone');
+// setInterval(function(){ buzzing() }, 4000);
 
 // function buzzing(){
 //     telephone.addClass('phone-buzz');
