@@ -24,7 +24,7 @@ function hasTouch() {
 
 //scrolltoid
 $('#lookfor').click(function(){
-    $("html, body").animate({ scrollTop: $('#scroll_anchor').offset().top }, 2000);
+    $("html, body").animate({ scrollTop: $('#form').offset().top }, 2000);
 });
 
 
