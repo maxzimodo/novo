@@ -110,6 +110,7 @@ header .left-block .title {
     line-height: normal;
     margin-bottom: 30px;
     border-radius: 3px;
+    text-shadow: 2px 2px #000;
 }
 header .left-block .description {
     margin-bottom: 30px;
