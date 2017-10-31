@@ -136,13 +136,13 @@ header .right-block .ball {
 }
 header .right-block .description {
     font-family: "Roboto Condensed Bold", sans-serif;
-    font-size: 74px;
-    line-height: 40px;
-    margin-top: 95px;
+    font-size: 120px;
+    line-height: 35px;
+    margin-top: 89px;
 }
 header .right-block .description small {
     font-family: "Roboto Condensed Bold", sans-serif;
-    font-size: 30px;
+    font-size: 24px;
 }
 main img.pay-delay {
     width: 39px;
@@ -561,12 +561,12 @@ div#load_screen{
 
     }
     header .right-block .description small {
-        font-size: 23px;
+        font-size: 19px;
     }
     header .right-block .description {
-        line-height: 35px;
-        margin-top: 73px;
-        font-size: 63px;
+        line-height: 32px;
+        margin-top: 67px;
+        font-size: 100px;
     }
     header .row {
         bottom: 22%;
