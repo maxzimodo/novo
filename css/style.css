@@ -101,7 +101,7 @@ header .container {
 }
 header .row {
     position: absolute;
-    bottom: 20%;
+    bottom: 28%;
     z-index: 1;
 }
 header .left-block .title {
@@ -569,7 +569,7 @@ div#load_screen{
         font-size: 63px;
     }
     header .row {
-        bottom: 11%;
+        bottom: 23%;
         text-align: right;
     }
 
