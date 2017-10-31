@@ -101,11 +101,11 @@ header .container {
 }
 header .row {
     position: absolute;
-    bottom: 120px;
+    bottom: 20%;
     z-index: 1;
 }
 header .left-block .title {
-    font-size: 65px;
+    font-size: 68px;
     font-family: "Roboto Condensed Bold", sans-serif;
     line-height: normal;
     margin-bottom: 30px;
