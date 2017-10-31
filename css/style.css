@@ -344,7 +344,7 @@ div#load_screen{
 @media (max-width: 575px) {
     header {
         height: auto;
-        background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/main_pic2.jpg)!important;
+        background-image: linear-gradient(to top, rgba(6, 21, 18, 0.6), rgba(17, 81, 67, 0.48)), url(../img/main_pic2.jpg)!important;
         background-size: cover!important;
         background-position: center center!important;
         background-repeat:no-repeat!important ;
@@ -418,7 +418,7 @@ div#load_screen{
 @media (min-width: 576px) and (max-width: 767px) {
     header {
         height: auto;
-        background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/main_pic2.jpg)!important;
+        background-image: linear-gradient(to top, rgba(6, 21, 18, 0.6), rgba(17, 81, 67, 0.48)), url(../img/main_pic2.jpg)!important;
         background-size: cover!important;
         background-position: center center!important;
         background-repeat:no-repeat!important ;
@@ -486,7 +486,7 @@ div#load_screen{
 @media (min-width: 768px) and (max-width: 991px) {
     header {
         height: auto;
-        background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/main_pic2.jpg)!important;
+        background-image: linear-gradient(to top, rgba(6, 21, 18, 0.6), rgba(17, 81, 67, 0.48)), url(../img/main_pic2.jpg)!important;
         background-size: cover!important;
         background-position: center center!important;
         background-repeat:no-repeat!important ;
@@ -569,7 +569,7 @@ div#load_screen{
         font-size: 63px;
     }
     header .row {
-        bottom: 23%;
+        bottom: 22%;
         text-align: right;
     }
 
