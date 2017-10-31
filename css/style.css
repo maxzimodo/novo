@@ -142,7 +142,7 @@ header .right-block .description {
 }
 header .right-block .description small {
     font-family: "Roboto Condensed Bold", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 main img.pay-delay {
     width: 39px;
@@ -560,8 +560,11 @@ div#load_screen{
         height: 200px;
 
     }
+    header .right-block .description small {
+        font-size: 23px;
+    }
     header .right-block .description {
-        line-height: 37px;
+        line-height: 35px;
         margin-top: 73px;
         font-size: 63px;
     }
