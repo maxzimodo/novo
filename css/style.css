@@ -568,6 +568,10 @@ div#load_screen{
         margin-top: 73px;
         font-size: 63px;
     }
+    header .row {
+        bottom: 11%;
+        text-align: right;
+    }
 
 }
 
