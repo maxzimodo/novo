@@ -575,7 +575,12 @@ div#load_screen{
 
 }
 
-@media (min-width: 1200px) {
-
+@media (min-width: 1200px) and (max-width: 1300px){
+    header .row {
+        bottom: 16%;
+    }
+    header .left-block .title {
+        font-size: 63px;
+    }
 }
 
