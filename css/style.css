@@ -101,7 +101,7 @@ header .container {
 }
 header .row {
     position: absolute;
-    bottom: 28%;
+    bottom: 22%;
     z-index: 1;
 }
 header .left-block .title {
@@ -110,7 +110,7 @@ header .left-block .title {
     line-height: normal;
     margin-bottom: 30px;
     border-radius: 3px;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px #0f2f23;
 }
 header .left-block .description {
     margin-bottom: 30px;
@@ -569,7 +569,7 @@ div#load_screen{
         font-size: 100px;
     }
     header .row {
-        bottom: 22%;
+        bottom: 16%;
         text-align: right;
     }
 
